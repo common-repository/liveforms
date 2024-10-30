@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 422.62 460.65">
+    <defs>
+        <style>
+            .cls-1{fill:url(#linear-gradient);}
+            .cls-2{fill:#59b9f9;}
+            .cls-3{fill:#fff;}
+            .cls-4{fill:#fff;}
+
+			.cls-2, rect {
+				animation-direction: alternate;
+				animation-iteration-count: infinite;
+				transform: translateY(-70px);
+				animation-name: animate-logo;
+				animation-duration: 1.5s;
+				animation-delay: .3s;
+				opacity: 0;
+			}
+			.cls-3 {
+				animation-delay: .6s;
+			}
+			.cls-2 {
+				animation-delay: .9s;
+			}
+			@keyframes animate-logo {
+				from {
+					opacity: 0;
+				}
+				to {
+				opacity: 1;
+					transform: translateY(0);
+				}
+			}
+		</style>
+		
+        <linearGradient id="linear-gradient" x1="13.66" y1="111.57" x2="408.96" y2="349.08"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#5066e0"/>
+            <stop offset="1" stop-color="#2e40a2"/>
+        </linearGradient>
+    </defs>
+    <title>hi</title>
+    <g>
+        <path class="cls-1"
+              d="M0,158.33v144a86.62,86.62,0,0,0,43.3,75l123.81,71.48a88.41,88.41,0,0,0,88.4,0l123.81-71.48a86.59,86.59,0,0,0,43.3-75v-144a86.62,86.62,0,0,0-43.3-75L255.51,11.84a88.41,88.41,0,0,0-88.4,0L43.3,83.32A86.64,86.64,0,0,0,0,158.33Z"/>
+        <g class="animate-wrap">
+			<path class="cls-2"
+				  d="M301.37,321H118.8a12.8,12.8,0,0,1-12.8-12.8V296.67a12.8,12.8,0,0,1,12.8-12.8H301.37a12.8,12.8,0,0,1,12.8,12.8v11.49A12.8,12.8,0,0,1,301.37,321Zm-54.76-18v-.58a4.56,4.56,0,0,0-4.56-4.55H177.2a4.56,4.56,0,0,0-4.56,4.55V303a4.56,4.56,0,0,0,4.56,4.55h64.85A4.56,4.56,0,0,0,246.61,303Z"/>
+			<rect class="cls-3" x="105.54" y="214.37" width="208.17" height="37.1" rx="12.8"/>
+			<rect class="cls-4" x="106" y="144.87" width="208.17" height="37.1" rx="12.8"/>
+		</g>
+    </g>
+</svg>

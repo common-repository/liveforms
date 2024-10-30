@@ -1,0 +1,914 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Live Forms\n"
+"POT-Creation-Date: 2024-06-16 10:46+0600\n"
+"PO-Revision-Date: 2021-01-09 16:34+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: liveforms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: assets/intl-tel-input\n"
+
+#: formfields/advanced/address.class.php:112
+msgid "Choose a country"
+msgstr ""
+
+#: formfields/advanced/equation.class.php:12
+#: views/field-settings/equation-options.php:11
+msgid "Equation"
+msgstr ""
+
+#: formfields/advanced/paratext.class.php:12
+msgid "Paratext"
+msgstr ""
+
+#: formfields/advanced/paymentmethods.class.php:41
+#: formfields/advanced/paymentmethods.class.php:81
+msgid "Skip Payment"
+msgstr ""
+
+#: formfields/advanced/recaptcha.class.php:58
+msgid "Captcha validation failed!"
+msgstr ""
+
+#: formfields/advanced/recaptcha.class.php:64
+msgid "Validated"
+msgstr ""
+
+#: formfields/advanced/signature.class.php:32
+msgid "Clear Signature"
+msgstr ""
+
+#: formfields/generic/select.class.php:55
+msgid "Please Select"
+msgstr ""
+
+#: libs/Api/Api.php:86 libs/Api/Api.php:92 libs/Api/Api.php:106
+msgid "Invalid api key!"
+msgstr ""
+
+#: libs/ElementorWidget/ElementorFormWidget.php:35
+msgid "Live Form"
+msgstr ""
+
+#: libs/ElementorWidget/ElementorFormWidget.php:79
+msgid "Parameters"
+msgstr ""
+
+#: libs/ElementorWidget/ElementorFormWidget.php:98
+#: libs/GutenbergBlock/GutenbergFormBlock.php:49
+#: libs/GutenbergBlock/GutenbergQueryStatusBlock.php:44
+#: views/admin/form-entries.php:49
+msgid "Select Form"
+msgstr ""
+
+#: libs/ElementorWidget/ElementorFormWidget.php:100
+msgid "Form"
+msgstr ""
+
+#: libs/Form/AccessControl.php:36
+msgid "You are not allowed to access this form!"
+msgstr ""
+
+#: libs/Form/AccessControl.php:42
+msgid "Please login to get access to this form"
+msgstr ""
+
+#: libs/Form/SubmitHandler.php:39
+msgid "Something went wrong! Looks like form is manipulated externally!"
+msgstr ""
+
+#: libs/Form/SubmitHandler.php:54
+msgid "Please recheck your input data. The following error(s) found:"
+msgstr ""
+
+#: libs/Form/SubmitHandler.php:98 libs/Form/SubmitHandler.php:120
+#: libs/FormEntries/FormEntryReplies.php:90
+#: libs/FormEntries/FormEntryReplies.php:105
+msgid "Reply"
+msgstr ""
+
+#: libs/Form/SubmitHandler.php:113
+#, php-format
+msgid "[ %s ► %s ] You have a new query"
+msgstr ""
+
+#: libs/Form/SubmitHandler.php:276
+msgid "Invalid File Type"
+msgstr ""
+
+#: libs/FormEntries/FormEntry.php:97
+msgid "Invalid Toeken"
+msgstr ""
+
+#: libs/FormEntries/FormEntryReplies.php:94
+#: libs/FormEntries/FormEntryReplies.php:109
+#, php-format
+msgid "[ %s ► %s ] Your got a reply for request # %d"
+msgstr ""
+
+#: libs/FormEntries/FormEntryReplies.php:133
+msgid "No entry ID is given!"
+msgstr ""
+
+#: libs/GutenbergBlock/GutenbergFormBlock.php:61
+msgid "Select a form!"
+msgstr ""
+
+#: libs/GutenbergBlock/js/form.js:61
+msgid "form builder contact survey job application customer support drag drop"
+msgstr ""
+
+#: libs/GutenbergBlock/js/query-status.js:61
+msgid ""
+"form builder contact survey job application customer support drag drop "
+"query status requst"
+msgstr ""
+
+#: libs/PaymentMethods/PayPal/PayPal.php:47
+msgid "Payment Mode:"
+msgstr ""
+
+#: libs/PaymentMethods/PayPal/PayPal.php:59
+msgid "Client ID:"
+msgstr ""
+
+#: libs/PaymentMethods/PayPal/PayPal.php:65
+msgid "Client Secret:"
+msgstr ""
+
+#: libs/PaymentMethods/PayPal/PayPal.php:71
+msgid "Cancel URL:"
+msgstr ""
+
+#: libs/PaymentMethods/PayPal/PayPal.php:77
+msgid "Return URL:"
+msgstr ""
+
+#: libs/PaymentMethods/PayPal/PayPal.php:84
+msgid "WebHook URL:"
+msgstr ""
+
+#: libs/PaymentMethods/PayPal/PayPal.php:92
+msgid "Checkout Page Logo URL:"
+msgstr ""
+
+#: libs/PaymentMethods/PayPal/PayPal.php:126
+msgid "Please complete payment"
+msgstr ""
+
+#: libs/Settings/CustomControls.php:23
+msgid "Width"
+msgstr ""
+
+#: libs/Settings/CustomControls.php:25
+#: views/field-settings/space-options.php:12
+msgid "Height"
+msgstr ""
+
+#: libs/Settings/CustomControls.php:133
+msgid "Enable Dialogflow API"
+msgstr ""
+
+#: libs/Settings/CustomControls.php:134
+msgid "Generate Key File"
+msgstr ""
+
+#: libs/Settings/General.php:23
+msgid "General"
+msgstr ""
+
+#: libs/Settings/General.php:26
+msgid "Basic Options"
+msgstr ""
+
+#: libs/Settings/General.php:27
+msgid "ReCaptcha Configuration"
+msgstr ""
+
+#: libs/Settings/General.php:28 libs/Settings/General.php:48
+msgid "API Key"
+msgstr ""
+
+#: libs/Settings/General.php:31
+msgid "Disabled frontend styles"
+msgstr ""
+
+#: libs/Settings/General.php:31
+msgid "Disable frontend styles"
+msgstr ""
+
+#: libs/Settings/General.php:32
+msgid "Front-end Query Status Page"
+msgstr ""
+
+#: libs/Settings/General.php:32
+#, php-format
+msgid "Select the page where you used the shortcode %s"
+msgstr ""
+
+#: libs/Settings/General.php:32
+msgid "Select Query Status Page"
+msgstr ""
+
+#: libs/Settings/General.php:33
+msgid "Enable advanced searchable dropdown using chosen js library"
+msgstr ""
+
+#: libs/Settings/General.php:33
+msgid "Enable advanced dropdown"
+msgstr ""
+
+#: libs/Settings/General.php:34
+msgid "Email template"
+msgstr ""
+
+#: libs/Settings/General.php:34
+msgid "Select email template"
+msgstr ""
+
+#: libs/Settings/General.php:36
+msgid "Site Key"
+msgstr ""
+
+#: libs/Settings/General.php:36
+msgid "Get the keys"
+msgstr ""
+
+#: libs/Settings/General.php:36
+msgid "ReCaptcha Site Key"
+msgstr ""
+
+#: libs/Settings/General.php:37
+msgid "Secret Key"
+msgstr ""
+
+#: libs/Settings/General.php:37
+msgid "ReCaptcha Secret Key"
+msgstr ""
+
+#: libs/Settings/General.php:48
+msgid "To integrate with the zapier you will need the pro version!"
+msgstr ""
+
+#: libs/Settings/License.php:20
+msgid "License"
+msgstr ""
+
+#: libs/Settings/License.php:23 libs/Settings/License.php:26
+msgid "License Key"
+msgstr ""
+
+#: libs/Settings/License.php:25
+msgid "Congratulations! Your license key is validated successfully."
+msgstr ""
+
+#: libs/Settings/License.php:26
+msgid "Please enter your license key"
+msgstr ""
+
+#: libs/Settings/License.php:34
+msgid "Invalid or expired license key!"
+msgstr ""
+
+#: libs/Settings/SettingsController.php:134 views/form-builder.php:65
+msgid "Settings"
+msgstr ""
+
+#: libs/Settings/views/settings.php:136 views/admin/settings.php:144
+msgid "Saving..."
+msgstr ""
+
+#: libs/ShortCodes.php:18 libs/ShortCodes.php:36
+msgid "Form ID is missing!"
+msgstr ""
+
+#: libs/functions.php:616
+msgid "Previous"
+msgstr ""
+
+#: libs/functions.php:617
+msgid "Next"
+msgstr ""
+
+#: liveforms.php:260 views/admin/form-entries.php:41
+msgid "Form Entries"
+msgstr ""
+
+#: liveforms.php:261 liveforms.php:277
+msgid "Statistics"
+msgstr ""
+
+#: liveforms.php:275
+msgid "Clone"
+msgstr ""
+
+#: liveforms.php:276
+msgid "Export"
+msgstr ""
+
+#: liveforms.php:278 views/form-builder.php:67
+msgid "Preview"
+msgstr ""
+
+#: liveforms.php:429
+msgid "Form builder"
+msgstr ""
+
+#: liveforms.php:444
+msgctxt "post type general name"
+msgid "Forms"
+msgstr ""
+
+#: liveforms.php:445
+msgctxt "post type singular name"
+msgid "Form"
+msgstr ""
+
+#: liveforms.php:446
+msgctxt "admin menu"
+msgid "Forms"
+msgstr ""
+
+#: liveforms.php:447
+msgctxt "add new on admin bar"
+msgid "Form"
+msgstr ""
+
+#: liveforms.php:448
+msgctxt "book"
+msgid "Add New"
+msgstr ""
+
+#: liveforms.php:449
+msgid "Add New Form"
+msgstr ""
+
+#: liveforms.php:450
+msgid "New Form"
+msgstr ""
+
+#: liveforms.php:451
+msgid "Edit Form"
+msgstr ""
+
+#: liveforms.php:452
+msgid "View Form"
+msgstr ""
+
+#: liveforms.php:453
+msgid "All Forms"
+msgstr ""
+
+#: liveforms.php:454
+msgid "Search Forms"
+msgstr ""
+
+#: liveforms.php:455
+msgid "Parent Forms:"
+msgstr ""
+
+#: liveforms.php:456
+msgid "No forms found."
+msgstr ""
+
+#: liveforms.php:457
+msgid "No forms found in Trash."
+msgstr ""
+
+#: liveforms.php:978 liveforms.php:980
+msgid "Form not found!"
+msgstr ""
+
+#: liveforms.php:986
+msgid "No form field has been added!"
+msgstr ""
+
+#: views/addons-list.php:219
+msgid "LiveForm Add-Ons"
+msgstr ""
+
+#: views/admin/form-entries.php:79
+msgid "Delete Selected"
+msgstr ""
+
+#: views/admin/form-entries.php:86 views/form/entries.php:11
+msgid "Date"
+msgstr ""
+
+#: views/admin/form-entries.php:97 views/form/entries.php:24
+msgid "Action"
+msgstr ""
+
+#: views/admin/form-entries.php:107 views/form/entries.php:36
+msgid "View"
+msgstr ""
+
+#: views/admin/form-entries.php:108 views/form/entries.php:37
+msgid "Delete"
+msgstr ""
+
+#: views/admin/form-entries.php:140
+msgid "No entry found!"
+msgstr ""
+
+#: views/admin/form-entries.php:146
+msgid "Select from to view the entries"
+msgstr ""
+
+#: views/admin/form-entry-details.php:22
+msgid "Form Entry Details"
+msgstr ""
+
+#: views/admin/form-entry-details.php:29
+msgid "View All Entries"
+msgstr ""
+
+#: views/admin/form-entry-details.php:39
+msgid "Entry Details"
+msgstr ""
+
+#: views/admin/form-entry-details.php:57
+msgid "No Payment"
+msgstr ""
+
+#: views/admin/form-entry-details.php:74 views/query.php:52
+msgid "Add Your Reply..."
+msgstr ""
+
+#: views/admin/form-entry-details.php:81
+msgid "Send Reply"
+msgstr ""
+
+#: views/admin_reply_req.php:15 views/form-entry-details.php:15
+#: views/query.php:38
+msgid "Request Details"
+msgstr ""
+
+#: views/builder/preview.php:13
+msgid "Form Name"
+msgstr ""
+
+#: views/builder/preview.php:20
+msgid "Add New Section"
+msgstr ""
+
+#: views/builder/preview.php:61 views/form-builder.php:184
+msgid "Column"
+msgstr ""
+
+#: views/builder/preview.php:65 views/form-builder.php:188
+msgid "Decrease Width"
+msgstr ""
+
+#: views/builder/preview.php:66 views/form-builder.php:189
+msgid "Increase Width"
+msgstr ""
+
+#: views/builder/preview.php:73 views/form-builder.php:199
+msgid "Section/Page"
+msgstr ""
+
+#: views/builder/preview.php:76 views/form-builder.php:202
+msgid "Insert Column"
+msgstr ""
+
+#: views/builder/settings.php:15
+msgid "Basic Settings"
+msgstr ""
+
+#: views/builder/settings.php:16
+msgid "Basic form settings"
+msgstr ""
+
+#: views/builder/settings.php:21
+msgid "User Receipt"
+msgstr ""
+
+#: views/builder/settings.php:22
+msgid "Control user communication"
+msgstr ""
+
+#: views/builder/settings.php:27
+msgid "Email Notifications"
+msgstr ""
+
+#: views/builder/settings.php:28
+msgid "Customize email messages"
+msgstr ""
+
+#: views/builder/settings.php:33
+msgid "Look and Feel"
+msgstr ""
+
+#: views/builder/settings.php:34
+msgid "Customize front-end interface"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:7
+msgid "Form description"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:14
+msgid "Successful form submission message"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:21
+msgid "Redirect to"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:35
+msgid "Access Control"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:37
+msgid "Who has access to this form:"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:45
+msgid "Everyone"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:53
+msgid "Login required message"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:55
+msgid "Permission denied message"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:60
+msgid "Form Data Processing"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:62
+msgid "Enable anti-spam protection"
+msgstr ""
+
+#: views/builder/settings/basic-settings.php:63
+msgid "Disable storing form entry in database"
+msgstr ""
+
+#: views/builder/settings/email-settings.php:12
+#: views/builder/settings/email-settings.php:64
+#: views/builder/settings/email-settings.php:145
+msgid "Email Name"
+msgstr ""
+
+#: views/builder/settings/support-form.php:6
+msgid "User Communication"
+msgstr ""
+
+#: views/builder/settings/support-form.php:12
+msgid "Send a unique query identifier"
+msgstr ""
+
+#: views/builder/settings/support-form.php:15
+msgid ""
+"If you check the following option, form submitter will received a token "
+"number to get access to the replies for their query."
+msgstr ""
+
+#: views/builder/settings/support-form.php:22
+msgid "Do Not Send Receipt"
+msgstr ""
+
+#: views/builder/settings/support-form.php:25
+msgid "Do not send receiving confirmation email to user."
+msgstr ""
+
+#: views/builder/settings/support-form.php:31
+msgid "Assign Form Handler"
+msgstr ""
+
+#: views/builder/settings/support-form.php:42
+msgid ""
+"You may assign this form to any member of your team, who will also have "
+"access to this form, can see the form submissions and manage them."
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:7
+msgid "Multi-page form"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:10
+msgid "Enable multi-page form"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:11
+msgid ""
+"Each section will be treated as a form page when you add multiple section "
+"in your form"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:16
+msgid "Form width"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:23
+msgid "Template"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:26 views/createnew.php:24
+msgid "Select Template"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:39
+msgid "Custom Class and ID"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:43
+msgid "Form ID"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:50
+msgid "Form Class"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:60
+msgid "Custom CSS"
+msgstr ""
+
+#: views/builder/settings/ui-settings.php:66
+msgid "Custom JS"
+msgstr ""
+
+#: views/builder/sidebar-backup.php:7 views/builder/sidebar.php:6
+msgid "Fields"
+msgstr ""
+
+#: views/builder/sidebar-backup.php:8 views/builder/sidebar.php:7
+msgid "Field Settings"
+msgstr ""
+
+#: views/builder/sidebar.php:15
+msgid "Commonly Used Fields"
+msgstr ""
+
+#: views/builder/sidebar.php:28
+msgid "Generic Fields"
+msgstr ""
+
+#: views/builder/sidebar.php:42
+msgid "Advanced Fields"
+msgstr ""
+
+#: views/builder/sidebar.php:59
+msgid "Custom Fields"
+msgstr ""
+
+#: views/builder/sidebar.php:86 views/form-builder.php:803
+msgid "Section/Page Settings"
+msgstr ""
+
+#: views/builder/sidebar.php:89 views/form-builder.php:806
+msgid "ID"
+msgstr ""
+
+#: views/builder/sidebar.php:92 views/form-builder.php:809
+msgid "Section Name"
+msgstr ""
+
+#: views/builder/submit-button-settings.php:7
+msgid "Button label"
+msgstr ""
+
+#: views/builder/submit-button-settings.php:11
+msgid "Processing label"
+msgstr ""
+
+#: views/createnew.php:24
+msgid "Create New Form"
+msgstr ""
+
+#: views/field-settings/equation-options.php:34
+msgid "Build your equation"
+msgstr ""
+
+#: views/field-settings/field-required.php:42
+msgid "API URL"
+msgstr ""
+
+#: views/field-settings/field-required.php:44
+msgid ""
+"Input value will be sent to api URL for validation, the return should be in "
+"json format {success: true}, or {success: false, message: 'Error message'}"
+msgstr ""
+
+#: views/field-settings/field-required.php:47
+msgid "Valid Dataset"
+msgstr ""
+
+#: views/field-settings/field-required.php:49
+msgid "1 entry per line"
+msgstr ""
+
+#: views/field-settings/fullname-options.php:6
+msgid "Title"
+msgstr ""
+
+#: views/field-settings/fullname-options.php:10
+msgid "Ex: Mr., Mrs., Dr., and add one title per line"
+msgstr ""
+
+#: views/field-settings/general-options.php:14
+msgid "Click to copy"
+msgstr ""
+
+#: views/field-settings/general-options.php:19
+msgid "Hide label"
+msgstr ""
+
+#: views/field-settings/general-options.php:37
+msgid "Note Position"
+msgstr ""
+
+#: views/field-settings/general-options.php:39
+msgid "Above the field"
+msgstr ""
+
+#: views/field-settings/general-options.php:40
+msgid "Below the field"
+msgstr ""
+
+#: views/field-settings/general-options.php:44
+msgid "Default Value"
+msgstr ""
+
+#: views/field-settings/general-options.php:48
+msgid "Custom CSS Classes"
+msgstr ""
+
+#: views/field-settings/hidden-options.php:16
+msgid "Hidden Field Value"
+msgstr ""
+
+#: views/field-settings/hidden-options.php:30
+msgid "When you see ***, replace it with proper variable name"
+msgstr ""
+
+#: views/field-settings/likert-options.php:14
+msgid "Row"
+msgstr ""
+
+#: views/field-settings/likert-options.php:39
+msgid "Add New Row"
+msgstr ""
+
+#: views/field-settings/likert-options.php:44
+msgid "Columns"
+msgstr ""
+
+#: views/field-settings/likert-options.php:69
+msgid "Add New Column"
+msgstr ""
+
+#: views/field-settings/multiple-choices.php:14
+msgid "Options"
+msgstr ""
+
+#: views/field-settings/multiple-choices.php:44
+msgid "Add New Option"
+msgstr ""
+
+#: views/field-settings/multiple-choices.php:50
+msgid "Multi-Select"
+msgstr ""
+
+#: views/field-settings/multiple-choices.php:53
+msgid "Option Alignment"
+msgstr ""
+
+#: views/field-settings/multiple-choices.php:56
+msgid "Align Horizontally"
+msgstr ""
+
+#: views/field-settings/multiple-choices.php:57
+msgid "Align Vertically"
+msgstr ""
+
+#: views/field-settings/paratext-options.php:11
+msgid "Paragraph Text"
+msgstr ""
+
+#: views/field-settings/password-options.php:18
+msgid "Show confirm password field"
+msgstr ""
+
+#: views/field-settings/payment-options.php:11
+msgid "Payment Options"
+msgstr ""
+
+#: views/field-settings/range-options.php:12
+msgid "Range Settings"
+msgstr ""
+
+#: views/field-settings/textarea-options.php:6
+msgid "Textarea Settings"
+msgstr ""
+
+#: views/field-settings/textarea-options.php:11
+msgid "Min Height"
+msgstr ""
+
+#: views/field-settings/textarea-options.php:18
+msgid "Max Height"
+msgstr ""
+
+#: views/form-builder.php:48
+msgid "Customize Form"
+msgstr ""
+
+#: views/form-builder.php:57
+msgid "Embed"
+msgstr ""
+
+#: views/form-builder.php:63
+msgid "Builder"
+msgstr ""
+
+#: views/form-builder.php:70
+msgid "Save Form"
+msgstr ""
+
+#: views/form-builder.php:104
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: views/form-builder.php:107
+msgid "Already have pro?"
+msgstr ""
+
+#: views/form-builder.php:116
+msgid "Copy the following shortcode"
+msgstr ""
+
+#: views/form-builder.php:124
+msgid "Click to copy the shortcode"
+msgstr ""
+
+#: views/form-builder.php:132
+msgid "and put it in page or post"
+msgstr ""
+
+#: views/form.php:182
+msgid "Submit Form"
+msgstr ""
+
+#: views/form/field.php:9
+msgid "Required Field"
+msgstr ""
+
+#: views/query.php:18
+msgid "Check Query Status"
+msgstr ""
+
+#: views/query.php:23
+msgid "Enter your token here"
+msgstr ""
+
+#: views/query.php:25
+msgid "Check Status"
+msgstr ""
+
+#: views/query.php:37
+msgid "Logout"
+msgstr ""
+
+#: views/showreqs.php:92 views/showreqs_ajax.php:55
+msgid "« Previous"
+msgstr ""
+
+#: views/showreqs.php:93 views/showreqs_ajax.php:56
+msgid "Next »"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Live Forms"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wpliveforms.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Drag and Drop Form Builder Form WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "W3 Eden, Inc."
+msgstr ""

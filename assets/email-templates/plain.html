@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link rel="stylesheet" href="/assets/stylesheets/email_media_queries.css" data-immutable="true">
+    <!-- If you delete this meta tag, Half Life 3 will never be released. -->
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>LiveForms</title>
+</head>
+
+<body>
+<table class="wrapper" bgcolor="#ECEEF1" style="background-color:#ECEEF1;width:100%;">
+    <tr>
+        <td>
+            <!-- HEADER -->
+            <table class="head-wrap" style="margin: 0 auto;">
+                <tr>
+                    <td></td>
+                    <td class="header container logo" style="font-family:Source Sans Pro, Helvetica, sans-serif;color:#6f6f6f;display:block;margin:0 auto;max-width:600px;padding:20px">
+                        <div class="content logo" style="display:block;margin:0 auto;max-width:650px;-webkit-font-smoothing:antialiased;padding:20px">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a href="{{site_url}}">{{img_logo}}</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <!-- /HEADER -->
+            <!-- BODY -->
+            <table class="body-wrap" style="margin:0 auto;margin-bottom: 80px;max-width: 800px">
+                <tr>
+                    <td></td>
+                    <td class="container transaction-mailer" bgcolor="#FFFFFF" style="font-family:Source Sans Pro, Helvetica, sans-serif;color:#6f6f6f;display:block;max-width:600px;margin:0 auto;padding:40px;border:1px solid #CED3D8;">
+                        <div class="content" style="display:block;margin:0 auto;max-width:650px;padding:20px;-webkit-font-smoothing:antialiased">
+                            <div class="receipt">
+                                <div class="billing">
+                                    {{email_message}}
+                                    <div class="divider" style="margin-top:30px;padding-top:10px;border-top:1px solid #CCC"></div>
+                                </div>
+                                <div class="foot">
+                                    <p style="color:#8888bb;text-align:left;line-height:150%;padding:0;font-weight:400;font-size:12px">
+                                    {{footer_text}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /content -->
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <!-- /BODY -->
+        </td>
+    </tr>
+</table>
+<!-- /wrapper -->
+
+</body>
+
+</html>
+
+
+
+
